@@ -4,7 +4,7 @@ class Location:
         self.country = country
 
 
-loc = Location("Kamil", "Poland")
-print(loc.name)
-print(loc.country)
-print(type(loc))
+    def myLocation(self):
+        print(f'Hi, my name is {self.name} and  I live in {self.country}.')
+
+
