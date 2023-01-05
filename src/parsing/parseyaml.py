@@ -1,7 +1,7 @@
 import json
 import yaml
 
-with open('c:/My/Github/09-devnetpython-KDubicki/src/parsing/myfile.yaml','r') as yaml_file:
+with open('myfile.yaml','r') as yaml_file:
     ouryaml = yaml.safe_load(yaml_file)
 
 print(ouryaml)
